@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+@font-face {
+  font-family: 'seoulNamsan';
+  src: ('./public/fonts/SeoulNamsam-Bold.ttf')
+
+}
+body {
+  font-family: 'Tilt Neon', cursive !important;
+  color: #502111 !important;
+  background-color: #EFE7D0 !important;
+}
+
+.kor {
+  font-family: 'seoulNamsam' !important;
+  font-weight: 'light' !important;
+  text-decoration: underline;
+}
+
+a {
+  color: #cdba63 !important;
+  text-decoration: underline;
+}
+
+.date-picker {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #FBF8F2;
+}
